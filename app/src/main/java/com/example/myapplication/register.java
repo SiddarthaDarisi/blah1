@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class register extends AppCompatActivity {
     EditText usrname,email,phone,password;
-    Button registerbtn;
+    Button registerbtn,login;
     TextView already;
     FirebaseAuth fauthen;
 
@@ -32,6 +32,7 @@ public class register extends AppCompatActivity {
         phone=findViewById(R.id.signUpFragPhoneNumber);
         password=findViewById(R.id.signUpFragPassword);
         registerbtn=findViewById(R.id.signUpFragSignUp);
+        login=findViewById(R.id.logInFragSignIn);
         fauthen= FirebaseAuth.getInstance();
         if(fauthen.getCurrentUser()!=null)
         {
@@ -65,6 +66,8 @@ public class register extends AppCompatActivity {
 
 
             }
+
         });
+
 
     }}

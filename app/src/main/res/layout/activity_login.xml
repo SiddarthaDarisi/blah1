@@ -7,14 +7,14 @@
 
     <EditText
         android:id="@+id/logInFragUsername"
-        android:layout_width="0dp"
+        android:layout_width="329dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:hint="Username"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="228dp"
+        android:hint="Email"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent=".8" />
@@ -23,13 +23,13 @@
         android:id="@+id/logInFragPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logInFragUsername"
         app:layout_constraintWidth_percent=".8" />
@@ -39,16 +39,18 @@
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="364dp"
         android:text="Forgot your Password?"
-        app:layout_constraintStart_toStartOf="@+id/logInFragPassword"
-        app:layout_constraintTop_toBottomOf="@+id/logInFragPassword" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/logInFragSignUp"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
         android:text="Don't have an account? Sign Up!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,16 +59,24 @@
 
     <Button
         android:id="@+id/logInFragSignIn"
-        android:layout_width="0dp"
+        android:layout_width="329dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="444dp"
         android:text="Sign in"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/logInFragSignUp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logInFragForgotPassword"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent=".8" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageFilterButton"
+        android:layout_width="126dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_00923_apps_and_services_health_logo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
