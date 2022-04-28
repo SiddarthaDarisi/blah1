@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545698850541",
+    "project_id": "hybrid-unity-348521",
+    "storage_bucket": "hybrid-unity-348521.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545698850541:android:16a45f37d27dfbfdba8ee4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545698850541-vb510tbgdfs0qr02ro468v9q3725ua9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB77-d8OcG_BUKiyMOaIXZ3-3A3AVgzTgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545698850541-vb510tbgdfs0qr02ro468v9q3725ua9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
